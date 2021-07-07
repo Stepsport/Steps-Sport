@@ -1,0 +1,154 @@
+*{margin:0px; padding: 0px; font-family: sans-serif;}
+#contenedor {
+    margin: 0px auto; 
+    width: 1080px;
+    background: rgb(88, 88, 88);}
+#contacto{
+    background-color: rgb(180, 180, 180);
+    display: flex;
+    position: relative;
+}   
+.fondo2{
+    height: 580px;
+    width: 450px;
+    background-color: rgba(43, 43, 43, 0.473);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+.infopagina{
+    height: 580px;
+    width: 400px;
+    background-color: rgba(255, 230, 0, 0.541);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: absolute;
+ 
+  
+}
+.fondo{
+    height: 580px;
+    width: 400px;
+    background-color: rgba(43, 43, 43, 0.473);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.infopagina iframe{
+    margin-top: 20px;
+    margin-left: 45px;
+    border-radius: 10px;
+}
+.infopagina p{
+    font-size: 20px;
+    margin-top: 130px;
+    margin-left: 90px;
+    font-family: 'Franklin Gothic Medium';
+}
+.logo img{
+    width: 150px;
+    height: 150px;
+    margin-left: 120px;
+    margin-top: 20px;
+    
+}
+.infopagina h2{
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    
+}
+#datos{
+    height: 580px;
+    width: 680px;
+    background-color: rgb(78, 78, 78);
+    border-top-right-radius:  20px;
+    border-bottom-right-radius: 20px;
+    margin-left: 400px;
+   
+    position: absolute;
+}
+
+.formulario{
+    height: 580px;
+    width: 670px;
+   
+}
+.formulario h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(158, 173, 255);
+    font-family: 'Franklin Gothic Medium';
+}
+.nombre{
+    height: 40px;
+    width: 220px;
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+.apellido{
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+}
+.celular{
+    height: 40px;
+    width: 220px;
+    margin-top:50px;
+    margin-left: 100px;
+    margin-right: 20px;
+    border-radius: 10px;
+    
+}
+.email{
+    height: 40px;
+    width: 220px;
+    border-radius: 10px;
+}
+.pregunta{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+    
+}
+.provincias{
+    height: 40px;
+    width: 100px;
+   margin-left:290px;
+   margin-top: 20px;
+}
+.comentario{
+    margin-top: 10px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align:center;
+   
+}
+.coment{
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.Enviar{
+    height: 30px;
+    width: 70px;
+    margin-top: 20px;
+    margin-left: 300px;
+    background: rgba(226, 69, 69, 0.863);
+    
+}
+a{
+    background-color: rgba(255, 230, 0, 0.541);
+    color: rgb(0, 0, 0);
+    float:right; 
+    width: 100px; 
+    height: 23px; 
+    text-align: center;
+    text-decoration: none;
+    margin-top: 22px; 
+    font-size: 17px;
+    margin-right: 20px;
+    Box-shadow: 0 3px 5px black
+}
